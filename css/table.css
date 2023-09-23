@@ -31,7 +31,7 @@ table{
     padding-top: 4px;    
 }
 
-#titulo-cab {
+#title-header {
     color: white;
     font-size: 1.5em;
 }
@@ -46,17 +46,17 @@ td{
     width: 400px;
 }
 
-.nav-destacado{
+.nav-highlighted {
     border-bottom: 3px solid #ffffff;
     color: #ffffff;
 }
 
-.nav-destacado:hover{
+.nav-highlighted :hover{
     background-color: #0e482a;
     cursor: pointer;
 }
 
-.tabela-brasileirao{
+.Brasileirão-table{
     position: absolute;
     margin-top: 110px;
     z-index: -1;
@@ -72,7 +72,7 @@ td{
     background-color: #ffffff;
 }
 
-#tabela-brasileirao-header{
+#Brasileirão-table-header{
     padding: 15px;
     padding-left: 20px;
     background-color: #f1f3f4;
@@ -95,7 +95,7 @@ a:visited{
     text-decoration: none;
 }
 
-.tabela-brasileirao th{
+.Brasileirão-table th{
     border-top: 1px solid #e0e0e0;
     font-weight: 100;
     color: #70758d;
@@ -103,7 +103,7 @@ a:visited{
     height: 35px;
 
 }
-.tabela-brasileirao td{
+.Brasileirão-table td{
     border-top: 1px solid #e0e0e0;
     font-weight: 100;
     color: #000000;
@@ -113,44 +113,44 @@ a:visited{
 
 }
 
-.tabela-brasileirao img{
+.Brasileirão-table img{
     width: 25px;
 }
 
-.tabela-colunas-bordas{
+.table-columns-borders{
     border-top: none !important;
 }
 
-.titulo-clube{
+.club-title{
     width: 35%;
     text-align: left;
 }
 
-.titulo-ultimas-cinco{
+.Form{
     width: 20%;
 }
 
-.titulo-ultimas-cinco img{
+.Form img{
     width: 17px;
 }
 
-.borda-azul{
+.blue-border{
     border-left: 3px solid #4285f4;
 }
 
-.borda-laranja{
+.orange-border{
     border-left: 3px solid #fa7b17;
 }
 
-.borda-verde{
+.green-border{
     border-left: 3px solid #34a853;
 }
 
-.borda-vermelho{
+.red-border{
     border-left: 3px solid #ea4335;
 }
 
-.legenda table{
+.caption table{
     width: 40vw;
     margin: 5px;
     margin-top: 20px;
@@ -162,18 +162,18 @@ a:visited{
     background-color: #f8f9fa;
 }
 
-.legenda th{
+.caption th{
     border-top: none;
     font-size: 1.1em;
     color: #000;
     font-weight: 700;
 }
 
-.legenda img{
+.caption img{
     width: 10px;
 }
 
-.legenda td{
+.caption td{
     border-top: none;
     font-size: 1em;
     height: 3px;
